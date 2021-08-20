@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html {
+  min-height: 100vh;
+  font-family: monospace;
+  margin: 2% 10% 2% 10%;
+  padding: 1%;
+}
+
+header {
+  padding: 1%;
+  margin-bottom: 4%;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(2, 38, 136);
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 1%;
+}
+img {
+  width: 150px;
+  height: 150px;
+  margin-left: 1%;
+}
+
+p {
+  margin: 1%;
+}
+
+button {
+  margin: 1%;
+  width: 10%;
+  border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-style: dashed;
+}
+.x-button{
+  width: 2%;
+  margin-left: 0;
+  border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+}
+.go-to-start{
+  float: right;
+  width: 15%;
+  height: 2%;
+  margin-top: 2%;
+  margin-right: 43%;
+  border-style: double;
+}
+label {
+  display: flex;
+  margin: 1rem;
+}
+
+#profile {
+  margin: 1rem;
+}
